@@ -15,6 +15,7 @@ Luego dentro de esa nueva instancia debemos colocar los parametros que son neces
 */
 
 const db = new Sequelize(process.env.DATABASE_URL, {
+    dialect: 'mysql',
     define: {
         timestamps: false
     },
