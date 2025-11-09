@@ -1,0 +1,30 @@
+extends ./layouts/index
+
+block contenido
+    main.container.mt-5 
+        .row
+            .col-md-5
+                img(src="img/nosotros.jpg", alt="Imagen sobre nosotros", class="img-fluid")
+            .col-md-7
+                h1 #{pagina}
+                blockquote  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tortor ante, suscipit vel odio et, lobortis scelerisque nulla. Phasellus faucibus nisl sit amet justo gravida pellentesque. Pellentesque varius et enim nec scelerisque. 
+
+                p  Phasellus malesuada purus a turpis aliquam, at tempus mi elementum. Mauris varius magna non ipsum rhoncus molestie. Praesent auctor consequat egestas. Duis nibh dolor, sollicitudin vel ullamcorper at, sodales ut neque. Aenean mattis ipsum blandit faucibus condimentum. 
+
+                p Curabitur eget magna sagittis, vestibulum leo id, tincidunt nulla. Sed eget nulla ultrices, rutrum metus vel, efficitur mi. Etiam eget nisi vel lectus dictum laoreet. Cras faucibus non tellus maximus mollis.
+
+    .listado-iconos
+        .container.mt-5.py-5.text-center 
+            .row 
+                .col-md-4
+                    img(src="img/icono_seguridad.svg", alt="icono seguridad", class="img-fluid mb-4")
+                    h2.mb-4 Seguridad 
+                    p vestibulum leo id, tincidunt nulla. Sed eget nulla ultrices, rutrum metus vel, efficitur mi Etiam eget nisi vel lectus dictum laoreet. Cras faucibus non tellus maximus mollis.
+                .col-md-4
+                    img(src="img/icono_destinos.svg", alt="icono destino", class="img-fluid mb-4")
+                    h2.mb-4 mejores Destinos 
+                    p vestibulum leo id, tincidunt nulla. Sed eget nulla ultrices, rutrum metus vel, efficitur mi Etiam eget nisi vel lectus dictum laoreet. Cras faucibus non tellus maximus mollis.
+                .col-md-4
+                    img(src="img/icono_precios.svg", alt="icono precio", class="img-fluid mb-4")
+                    h2.mb-4 Los Mejores Precios 
+                    p vestibulum leo id, tincidunt nulla. Sed eget nulla ultrices, rutrum metus vel, efficitur mi Etiam eget nisi vel lectus dictum laoreet. Cras faucibus non tellus maximus mollis.
